@@ -2,15 +2,58 @@
 /* CSS Document */
 
 
-body {
+html {
+background-color: rgb( 	214, 223, 255);
+}
 
-    color: #17a2b8;
+
+.container_main{
+    background: rgb( 230, 252, 251) !important;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(214,223,255,1) 100%) !important;
 }
-.bg-dark {
-    background-color: #0d417575 !important;
+
+.fontheader{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background: rgb(221, 189, 189) !important;
+background: linear-gradient(77deg, rgba(0,0,0,1) 0%, rgba(21,51,109,1) 47%, rgba(124,127,137,1) 100%) !important;
 }
-.btn-primary {
-    color: #fff;
-    background-color: rgba(97, 146, 206, 0.95);
-    border-color: #007bff;
+
+.color_top {
+margin-right:0px !important;
+ }
+
+.color_top_main {
+margin-right:5px !important;
+ }
+
+ .color_top span {
+    font-family: Georgia, 'Times New Roman', Times, serif;!important;
+    font-size: 25px !important;
+    margin-right:10px !important;
 }
+
+.button {
+    border-top: 1px solid #96d1f8;
+
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+ }
+
+ .button:before {
+    content: "";
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: -200%;
+    left: -225%;
+
+    background-image: -webkit-linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0.6), rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0.6), rgba(255,255,255,0));
+
+}
+
+ .button:hover:before {
+   top: 200%;
+   left: 200%;
+ }
