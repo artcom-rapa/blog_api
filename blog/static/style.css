@@ -3,19 +3,19 @@
 
 
 html {
-background-color: rgb( 	214, 223, 255);
+background-color: rgb( 230, 252, 251);
 }
 
 
 .container_main{
-    background: rgb( 230, 252, 251) !important;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(214,223,255,1) 100%) !important;
+    background: rgb(230,252,251) !important;
+    background: linear-gradient(180deg, #ffffff, #e4fefd) !important;
 }
 
 .fontheader{
 font-family: Georgia, 'Times New Roman', Times, serif;
-background: rgb(221, 189, 189) !important;
-background: linear-gradient(77deg, rgba(0,0,0,1) 0%, rgba(21,51,109,1) 47%, rgba(124,127,137,1) 100%) !important;
+background: rgb(230,252,251) !important;
+background: linear-gradient(77deg, rgb(230,252,251), rgb(230,252,251) !important;
 }
 
 .color_top {
