@@ -107,3 +107,5 @@ def list_drafts():
         is_published=False).order_by(Entry.pub_date.desc())
     return render_template("drafts.html", drafts=drafts)
 
+if __name__ == '__main__':
+    app.run(debug=True)
